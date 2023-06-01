@@ -4,7 +4,7 @@
  * Date:22Feb2023
  * Description: this file get price from helper and create lowest price index and pass price value to that(configurable)
  */
-namespace Pixelmechanics\LowestPrice\Model\Plugin;
+namespace Shivani\LowestPrice\Model\Plugin;
 
 
 class ConfigurablePrice
@@ -30,7 +30,7 @@ class ConfigurablePrice
      * @param \Magento\Framework\Json\DecoderInterface $jsonDecoder
      */
     public function __construct(
-        \Pixelmechanics\LowestPrice\Helper\Data $helper,
+        \Shivani\LowestPrice\Helper\Data $helper,
         \Magento\Framework\Json\EncoderInterface $jsonEncoder,
         \Magento\Framework\Json\DecoderInterface $jsonDecoder
     ){
