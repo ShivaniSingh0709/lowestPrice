@@ -8,19 +8,19 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
     <menu>
-        <add id="Pixelmechanics_LowestPrice::lowest_price"
+        <add id="Shivani_LowestPrice::lowest_price"
              title="Lowest Price"
-             module="Pixelmechanics_LowestPrice"
+             module="Shivani_LowestPrice"
              sortOrder="80"
              resource="Pixelmechanics_LowestPrice::lowest_price"
         />
-        <add id="Pixelmechanics_LowestPrice::lowest_price_days"
+        <add id="Shivani_LowestPrice::lowest_price_days"
              title="Lowest Price In 30 Days"
-             module="Pixelmechanics_LowestPrice"
+             module="Shivani_LowestPrice"
              sortOrder="1"
              action="price/index/index"
-             parent="Pixelmechanics_LowestPrice::lowest_price"
-             resource="Pixelmechanics_LowestPrice::lowest_price_days"
+             parent="Shivani_LowestPrice::lowest_price"
+             resource="Shivani_LowestPrice::lowest_price_days"
         />
     </menu>
 </config>
