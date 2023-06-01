@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Plugin;
+namespace Shivani\LowestPrice\Plugin;
 
 use Magento\Catalog\Pricing\Price\FinalPrice;
 use Magento\Framework\Pricing\Render;
