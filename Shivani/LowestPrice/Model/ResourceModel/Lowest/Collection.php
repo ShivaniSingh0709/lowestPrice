@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Model\ResourceModel\Lowest;
+namespace Shivani\LowestPrice\Model\ResourceModel\Lowest;
 
 class Collection extends \Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection
 {
