@@ -4,8 +4,8 @@
     <acl>
         <resources>
             <resource id="Magento_Backend::admin">
-                <resource id="Pixelmechanics_LowestPrice::lowest_price" title="Lowest Price" sortOrder="10">
-                    <resource id="Pixelmechanics_LowestPrice::lowest_price_days" title="Lowest Price In 30 Days" sortOrder="50" />
+                <resource id="Shivani_LowestPrice::lowest_price" title="Lowest Price" sortOrder="10">
+                    <resource id="Shivani_LowestPrice::lowest_price_days" title="Lowest Price In 30 Days" sortOrder="50" />
                     </resource>
             </resource>
         </resources>
