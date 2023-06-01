@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Model\ResourceModel;
+namespace Shivani\LowestPrice\Model\ResourceModel;
 
 
 class Lowest extends \Magento\Framework\Model\ResourceModel\Db\AbstractDb
