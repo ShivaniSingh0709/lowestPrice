@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Pixelmechanics\LowestPrice\Observer\Catalog;
+namespace Shivani\LowestPrice\Observer\Catalog;
 
 class ProductSaveAfter implements \Magento\Framework\Event\ObserverInterface
 {
@@ -29,7 +29,7 @@ class ProductSaveAfter implements \Magento\Framework\Event\ObserverInterface
      */
 
     public function __construct(
-        \Pixelmechanics\LowestPrice\Model\LowestFactory $lowestFactory,
+        \Shivani\LowestPrice\Model\LowestFactory $lowestFactory,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory,
         \Magento\Store\Model\StoreManagerInterface $storeManager
