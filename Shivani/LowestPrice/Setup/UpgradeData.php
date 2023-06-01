@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelmechanics\LowestPrice\Setup;
+namespace Shivani\LowestPrice\Setup;
     
 
 use Magento\Framework\Setup\ModuleContextInterface;
