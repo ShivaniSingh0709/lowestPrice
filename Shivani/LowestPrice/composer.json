@@ -1,0 +1,23 @@
+{
+    "name": "pixelmechanics/module-lowestprice",
+    "description": "lowest price",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+       
+        {
+            "name": "shivani singh",
+            "email": "shivani.singh@pixelmechanics.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Pixelmechanics\\LowestPrice\\": ""
+        }
+    }
+}
