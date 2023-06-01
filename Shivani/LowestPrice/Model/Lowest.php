@@ -10,7 +10,7 @@ class Lowest extends \Magento\Framework\Model\AbstractModel implements \Magento\
 
     protected function _construct()
     {
-        $this->_init('Pixelmechanics\LowestPrice\Model\ResourceModel\Lowest');
+        $this->_init('Shivani\LowestPrice\Model\ResourceModel\Lowest');
     }
 
     public function getIdentities()
