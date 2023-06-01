@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Model;
+namespace Shivani\LowestPrice\Model;
 class Lowest extends \Magento\Framework\Model\AbstractModel implements \Magento\Framework\DataObject\IdentityInterface
 {
     const CACHE_TAG = 'catalog_product_lowest_total_price_log';
