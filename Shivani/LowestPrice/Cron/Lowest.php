@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelmechanics\LowestPrice\Cron;
+namespace Shivani\LowestPrice\Cron;
 
 class Lowest
 {
@@ -12,7 +12,7 @@ class Lowest
 
 
     public function __construct(
-        \Pixelmechanics\LowestPrice\Model\LowestFactory $lowestFactory,
+        \Shivani\LowestPrice\Model\LowestFactory $lowestFactory,
         \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory ,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Store\Model\StoreManagerInterface $storeManager,
