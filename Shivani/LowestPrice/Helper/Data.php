@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Helper;
+namespace Shivani\LowestPrice\Helper;
 use Magento\Framework\View\LayoutInterface;
 
 
@@ -24,8 +24,8 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
        {
         
         $renderer = $this->layout->createBlock(
-            'Pixelmechanics\LowestPrice\Block\LowestPriceProduct'
-        )->setTemplate("Pixelmechanics_LowestPrice::lowest_price.phtml")->setProduct($product)->toHtml();
+            'Shivani\LowestPrice\Block\LowestPriceProduct'
+        )->setTemplate("Shivani_LowestPrice::lowest_price.phtml")->setProduct($product)->toHtml();
         return $renderer;
 
        }
