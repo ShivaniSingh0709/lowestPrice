@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Setup;
+namespace Shivani\LowestPrice\Setup;
 use Magento\Eav\Setup\EavSetup;
 use Magento\Eav\Setup\EavSetupFactory;
 use Magento\Framework\Setup\InstallDataInterface;
