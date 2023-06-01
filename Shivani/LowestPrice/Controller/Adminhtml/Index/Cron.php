@@ -1,6 +1,6 @@
 <?php
 
-namespace Pixelmechanics\LowestPrice\Controller\Adminhtml\Index;
+namespace Shivani\LowestPrice\Controller\Adminhtml\Index;
 
 class Cron extends \Magento\Framework\App\Action\Action
 {
@@ -8,7 +8,7 @@ class Cron extends \Magento\Framework\App\Action\Action
     protected $lowest;
     public function __construct(
         \Magento\Framework\App\Action\Context $context,
-        \Pixelmechanics\LowestPrice\Cron\Lowest $lowest,
+        \Shivani\LowestPrice\Cron\Lowest $lowest,
         \Magento\Framework\View\Result\PageFactory $pageFactory)
     {
         $this->_pageFactory = $pageFactory;
