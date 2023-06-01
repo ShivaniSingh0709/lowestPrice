@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Block;
+namespace Shivani\LowestPrice\Block;
 
 class LowestPriceProduct extends \Magento\Framework\View\Element\Template
 {
@@ -19,7 +19,7 @@ class LowestPriceProduct extends \Magento\Framework\View\Element\Template
         \Magento\Catalog\Model\ResourceModel\Product\CollectionFactory $collectionFactory ,
         \Magento\CatalogRule\Model\Rule $rule,
         \Magento\Framework\Pricing\Helper\Data $currencyPrice,
-        \Pixelmechanics\LowestPrice\Model\LowestFactory $lowestFactory,
+        \Shivani\LowestPrice\Model\LowestFactory $lowestFactory,
         \Magento\Framework\App\Config\ScopeConfigInterface $scopeConfig,
         \Magento\Store\Model\StoreManagerInterface $storeManager,
         array $data = []
