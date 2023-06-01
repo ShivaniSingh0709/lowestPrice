@@ -1,5 +1,5 @@
 <?php
-namespace Pixelmechanics\LowestPrice\Console;
+namespace Shivani\LowestPrice\Console;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -11,7 +11,7 @@ class StoreLowestPrice extends Command
    protected $_lowestPriceImportRun;
 
    public function __construct(
-        \Pixelmechanics\LowestPrice\Cron\Lowest $lowestPriceImportRun
+        \Shivani\LowestPrice\Cron\Lowest $lowestPriceImportRun
    ){
         $this->_lowestPriceImportRun = $lowestPriceImportRun;
         parent::__construct();
