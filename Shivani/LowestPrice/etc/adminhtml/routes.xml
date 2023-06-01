@@ -7,7 +7,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="admin">
         <route id="price" frontName="price">
-            <module name="Pixelmechanics_LowestPrice"/>
+            <module name="Shivani_LowestPrice"/>
         </route>
     </router>
 </config>
